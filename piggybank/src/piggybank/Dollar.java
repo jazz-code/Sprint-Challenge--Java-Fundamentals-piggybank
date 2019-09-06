@@ -2,12 +2,11 @@ package piggybank;
 
 public class Dollar extends Coin
 {
-    private int value = 100;
     
-    //constructor default super()
-    public Dollar()
+    //constructor with super() to get from Coin class
+    public Dollar(int value)
     {
-
+        super(value, "Dollar", 1.00);
     }
 
    

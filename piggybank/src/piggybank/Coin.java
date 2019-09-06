@@ -4,10 +4,12 @@ public abstract class Coin
 {
     int value;
     double total;
+    String name;
 
-    public Coin(int value, double total)
+    public Coin(int value, String name, double total)
     {
         this.value = value;
+        this.name = name;
         this.total = total;
     }
     //default contructor set to 1
@@ -24,5 +26,10 @@ public abstract class Coin
     public int totalValue()
     {
         return value * total;
+    }
+
+    public String getName()
+    {
+        return name;
     }
 }
