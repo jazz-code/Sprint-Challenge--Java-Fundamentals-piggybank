@@ -9,6 +9,6 @@ public class Dime extends Coin
 
     public Dime()
     {
-        super(1, "Dime", 0.25);
+        super(1, "Dime", 0.10);
     }
 }

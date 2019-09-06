@@ -4,11 +4,7 @@ public class Penny extends Coin
 {
     public Penny(int value)
     {
-        super(value, "Penny", 0.10);
+        super(value, "Penny", 0.1);
     }
 
-    public Penny()
-    {
-        super(1, "Penny", 1.00);
-    }
 }

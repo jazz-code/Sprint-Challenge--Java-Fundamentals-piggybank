@@ -1,9 +1,11 @@
 package piggybank;
 import java.util.*;
+import java.text.*;
 public class Main {
 
     public static void main(String[] args) 
     {
+        DecimalFormat fp = new DecimalFormat("$###,###.00");
         //initialize a double to hold total
         double total = 0;
         //make an array list
@@ -28,7 +30,7 @@ public class Main {
         {
             total = total + myList.get(i).totalValue();
         }
-        System.out.println(total);
+        System.out.println("The piggy bank holds " + fp.format(total));
 
 
     }

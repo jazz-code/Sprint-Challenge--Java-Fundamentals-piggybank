@@ -18,14 +18,14 @@ public abstract class Coin
         value = 1;
     }
     //add value
-    public void addValue()
+    public void added()
     {
         value = value + value;
     }
     // return the value * total
     public double totalValue()
     {
-        return total * value;
+        return value * total;
     }
 
     public String getName()
