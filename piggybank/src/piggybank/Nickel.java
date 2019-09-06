@@ -6,4 +6,9 @@ public class Nickel extends Coin
     {
         super(value, "Nickel", 0.10);
     }
+
+    public Nickel()
+    {
+        super(1, "Nickel", 1.00);
+    }
 }
